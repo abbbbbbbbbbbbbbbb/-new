@@ -1,0 +1,59 @@
+{This is for you.}
+&&
+{=A、Thank you.}
+&&
+{=B、Goodbye.}
+&&
+{=C、Yes, I am.}
+&&
+{=D、Yes, I’m sad.}
+&&
+{=A、Thank you.}
+&&
+{What are ___?}
+&&
+{=A、Those}
+&&
+{=B、those}
+&&
+{=C、That}
+&&
+{=D、that}
+&&
+{=B、those}
+&&
+{Tom is really a naughty boy. He likes to _____ and play jokes on his younger sister when their parents are not around.}
+&&
+{=A、alert}
+&&
+{=B、spare}
+&&
+{=C、tease}
+&&
+{=D、oppose}
+&&
+{=C、tease}
+&&
+{Since many of our house plants are from humid jungle environments, they need _____ air to keep them green and healthy.}
+&&
+{=A、moist}
+&&
+{=B、stale}
+&&
+{=C、crisp}
+&&
+{=D、fertile}
+&&
+{=A、moist}
+&&
+{___ seven eleven.}
+&&
+{=A、It’s}
+&&
+{=B、It}
+&&
+{=C、it’s}
+&&
+{=D、it}
+&&
+{=A、It’s}
