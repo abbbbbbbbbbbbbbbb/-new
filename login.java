@@ -1,4 +1,3 @@
-package 軟體工程;
 import javax.swing.*;
 import java.awt.event.*;
 import javax.swing.*;

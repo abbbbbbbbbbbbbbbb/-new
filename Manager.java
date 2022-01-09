@@ -1,5 +1,3 @@
-package 軟體工程;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -41,6 +39,16 @@ public class Manager {
 		Button3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				new renewchoice();
+				frame.dispose();
+			}
+		});
+		JButton Button4 = new JButton("新增多筆帳號");       //大量新增帳號按鈕
+		Button4.setBounds(225, 255, 96, 50);
+		panel.add(Button4);
+		Button4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ManyUser A05 = new ManyUser();
+				A05.ManyUser(panel);
 				frame.dispose();
 			}
 		});
