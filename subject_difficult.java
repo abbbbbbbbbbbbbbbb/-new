@@ -10,9 +10,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-public class subject{
+public class subject_difficult{
 	 
-	 public void subject(JPanel panel_) {
+	 public void subject_difficult(JPanel panel_) {
 		    JFrame frame = new JFrame("KYUTES     ");
 			frame.setSize(600, 400);
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -68,7 +68,7 @@ public class subject{
 	        panel.add(Button1_);
 	        Button1_.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					new Function國文();
+					new Function國文3();
 					frame.dispose();
 				}
 			});
@@ -77,7 +77,7 @@ public class subject{
 	        panel.add(Button2_);
 	        Button2_.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					new Function英文();
+					new Function英文3();
 					frame.dispose();
 				}
 			});
@@ -86,7 +86,7 @@ public class subject{
 	        panel.add(Button3_);
 	        Button3_.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					new Function數學();
+					new Function數學3();
 					frame.dispose();
 				}
 			});
@@ -95,9 +95,9 @@ public class subject{
 	        panel.add(Buttoncheck);
 	        Buttoncheck.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					new 成績查詢();
 					//成績查詢 login = new 成績查詢();
 					//login.成績查詢(panel);
+					new 成績查詢();
 					frame.dispose();
 				}
 			});

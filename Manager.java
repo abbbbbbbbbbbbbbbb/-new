@@ -1,3 +1,5 @@
+package 軟體工程;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -31,6 +33,15 @@ public class Manager {
 				/*A05 A05 = new A05();
 				A05.score(panel);
 				frame.dispose();*/
+			}
+		});
+		JButton Button3 = new JButton("新增題目");       //測驗群組管理按鈕
+		Button3.setBounds(225, 185, 96, 50);
+		panel.add(Button3);
+		Button3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new renewchoice();
+				frame.dispose();
 			}
 		});
 		JButton logout = new JButton("登出");     //返回按鈕

@@ -1,3 +1,4 @@
+package 軟體工程;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.*;
@@ -36,6 +37,13 @@ public class loginStudent{
 		JButton loginButton = new JButton("登入");               //登入按鈕
 		loginButton.setBounds(250, 100, 80, 25);
 		panel.add(loginButton);
+		loginButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				選擇群組 choose = new 選擇群組();
+				choose.選擇群組(panel);
+				frame.dispose();
+			}
+		});
 
 
 		JButton loginButton1 = new JButton("上一頁");       
@@ -48,33 +56,6 @@ public class loginStudent{
 				frame.dispose();
 			}
 		}); 
-		boolean have = false;
-		ReadData data = new ReadData();
-		String User = userText.getText();
-		System.out.println("A"+User);
-		String Password = passwordText.getText();
-		loginButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				for(int i = 0; i < ReadData.count; i++) {
-					System.out.println("!");
-					if(User.equals(ReadData.user[i]) && Password.equals(ReadData.password[i])) {
-						System.out.println("!!");
-						//						loginButton.addActionListener(new ActionListener() {
-						//							public void actionPerformed(ActionEvent e) {
-						subject A03 = new subject();
-						A03.subject(panel);
-						frame.dispose();
-					}
-					else
-						loginButton.addActionListener(new ActionListener() {
-							public void actionPerformed(ActionEvent e) {
-								JOptionPane.showMessageDialog(null,"帳密錯誤","error",JOptionPane.YES_NO_OPTION);
-							}
-						});
-				}
-			}
-
-		});
+		
 	}
 }
-

@@ -1,5 +1,5 @@
+package 軟體工程;
 import javax.swing.JPanel;
-
 public class Main {
 	public static void main(String[] args) { 
 		login login1 = new login();
